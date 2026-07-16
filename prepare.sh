@@ -18,7 +18,7 @@ if ! command -v flatpak-node-generator &>/dev/null; then
 fi
 
 if [ ! -d "$UPSTREAM_DIR" ] ; then
-    git clone https://github.com/stoatchat/for-desktop.git --depth=1 --branch=v1.3.0 "$UPSTREAM_DIR"
+    git clone https://github.com/stoatchat/for-desktop.git --depth=1 --branch=v1.4.0 "$UPSTREAM_DIR"
 fi
 
 cd "$UPSTREAM_DIR"
